@@ -109,7 +109,6 @@ console.log(justTrims);
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
 
-
 for (let i = 0; i < cars.length; i++) {
   if (car.color.charAt(0).toLowerCase() === "b") {
     console.log("Fizz");
@@ -123,13 +122,23 @@ for (let i = 0; i < cars.length; i++) {
 */
 
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
+let contatore = 0;
 let i = 0;
+while (contatore !== 32 && i < numericArray.length) {
+  console.log(numericArray[o]);
+
+  contatore = numericArray[i];
+  i++;
+}
+console.log(contatore);
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
+
+/*
 const charactersArray = ["g", "n", "u", "z", "d"];
 const char = charactersArray
 const positionArray = [];
@@ -207,4 +216,4 @@ for (let i = 0; i < charactersArray.length; i++) {
   }
 }
 
-console.log(positionArray);
+console.log(positionArray);*/
