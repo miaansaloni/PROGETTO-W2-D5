@@ -108,7 +108,7 @@ console.log(justTrims);
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
-
+/*
 for (let i = 0; i < cars.length; i++) {
   if (car.color.charAt(0).toLowerCase() === "b") {
     console.log("Fizz");
@@ -116,21 +116,20 @@ for (let i = 0; i < cars.length; i++) {
     console.log("Buzz");
   }
 }
-
+*/
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
 
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
-let contatore = 0;
 let i = 0;
-while (contatore !== 32 && i < numericArray.length) {
-  console.log(numericArray[o]);
-
-  contatore = numericArray[i];
+while (i < numericArray.length) {
   i++;
+  console.log(numericArray[i]);
+  if (numericArray[i] === 32) {
+    break;
+  }
 }
-console.log(contatore);
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
