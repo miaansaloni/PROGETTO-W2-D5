@@ -137,13 +137,13 @@ while (i < numericArray.length) {
     es. [f, b, e] --> [6, 2, 5]
 */
 
-/*
 const charactersArray = ["g", "n", "u", "z", "d"];
 
 const positionArray = [];
 
 for (let i = 0; i < charactersArray.length; i++) {
-  switch {
+  const character = charactersArray[i];
+  switch (character) {
     case "a":
       positionArray.push(1);
       break;
@@ -211,8 +211,6 @@ for (let i = 0; i < charactersArray.length; i++) {
       positionArray.push(null);
       break;
   }
-    
-  }
 }
 
-console.log(positionArray);*/
+console.log(positionArray);
