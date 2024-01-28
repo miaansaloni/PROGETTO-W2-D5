@@ -85,7 +85,7 @@ body {
 .perf-giftImg {
   display: inline-block;
   width: 20vw;
-  height: 75vh;
+  height: 400px;
   margin-inline: 1vw;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
