@@ -28,6 +28,10 @@ nav a {
   text-decoration: none;
   margin: 1%;
 }
+
+nav a:hover {
+  color: cornsilk;
+}
 body {
   background-color: #e8eced;
 }
@@ -37,7 +41,7 @@ body {
 }
 #shopall {
   background-color: #e95f08;
-  height: 1.5rem;
+  height: 2rem;
   text-align: center;
   color: white;
   padding-top: 0.4rem;
@@ -46,18 +50,16 @@ body {
 
 #giftGuide {
   background-image: url(../images/bg-image.png);
-  background-repeat: repeat;
-  background-position: center;
-  background-position-y: top;
+  min-height: 200px;
   text-align: center;
   color: white;
-  padding-block: 3rem;
   font-weight: bold;
 }
 
 #giftGuide h1 {
   font-size: xx-large;
-  padding-block: 1.5rem;
+  padding-top: 3.5rem;
+  line-height: 2.5;
 }
 
 #perf-gift {
@@ -69,22 +71,24 @@ body {
   padding-top: 0.5rem;
 }
 #perf-gift h2 {
-  margin-top: 0.5rem;
-  padding-inline-start: 2rem;
+  margin-top: 0.7rem;
+  margin-inline-start: 2rem;
   font-size: x-large;
+  padding-bottom: 1rem;
 }
 #perf-gift a {
-  color: #508293;
+  color: #3793a7;
+  font-size: medium;
+  text-decoration: none;
+  margin-inline-start: 1rem;
 }
 .perf-giftImg {
   display: inline-block;
-  width: 22%;
-  height: 450px;
+  width: 20vw;
+  height: 75vh;
+  margin-inline: 1vw;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-inline-start: unset;
-  margin-inline-end: unset;
-  margin: 1.3rem;
 }
 
 .perf-giftImg img {
@@ -100,8 +104,11 @@ body {
 }
 
 #gamingGifts a {
-  color: #508293;
+  color: #3793a7;
+  font-size: medium;
   font-weight: bold;
+  text-decoration: none;
+  margin-inline-start: 1rem;
 }
 #gamingGifts img {
   object-fit: cover;
@@ -121,8 +128,11 @@ body {
 }
 
 #soundGifts a {
-  color: #508293;
+  color: #3793a7;
+  font-size: medium;
   font-weight: bold;
+  text-decoration: none;
+  margin-inline-start: 1rem;
 }
 footer {
   text-align: center;
@@ -138,6 +148,6 @@ footer #logo {
   background-color: #27303f;
 }
 #logo img {
-  width: 150px;
+  width: 200px;
   padding: 3rem;
 }
